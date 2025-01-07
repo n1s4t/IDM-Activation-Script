@@ -11,7 +11,7 @@
 ::   Homepages: https://github.com/n1s4t/IDM-Activation-Script
 ::              https://t.me/n1s4t
 ::
-::       Telegram: @Stripe_op
+::       Telegram: @n1s4t
 ::
 ::============================================================================
 
