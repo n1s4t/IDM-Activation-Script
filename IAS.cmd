@@ -8,8 +8,8 @@
 ::
 ::   IDM Activation Script (IAS)
 ::
-::   Homepages: https://github.com/lstprjct/IDM-Activation-Script
-::              https://t.me/ModByPiash/5
+::   Homepages: https://github.com/n1s4t/IDM-Activation-Script
+::              https://t.me/n1s4t
 ::
 ::       Telegram: @Stripe_op
 ::
@@ -63,7 +63,7 @@ exit /b
 ::========================================================================================================================================
 
 set "blank="
-set "mas=https://github.com/lstprjct/IDM-Activation-Script/wiki/"
+set "mas=https://github.com/n1s4t/IDM-Activation-Script/wiki/"
 
 ::  Check if Null service is working, it's important for the batch script
 
@@ -373,8 +373,8 @@ echo:
 call :_color2 %_White% "             " %_Green% "Create By Piash"
 echo:            ___________________________________________________ 
 echo:
-echo:               Telegram: @ModByPiash
-echo:               Github: https://github.com/lstprjct
+echo:               Telegram: n1s4t
+echo:               Github: https://github.com/n1s4t
 echo:            ___________________________________________________ 
 echo:                                                               
 echo:               [1] Activate
@@ -392,7 +392,7 @@ choice /C:123450 /N
 set _erl=%errorlevel%
 
 if %_erl%==6 exit /b
-if %_erl%==5 start https://github.com/lstprjct/IDM-Activation-Script & goto MainMenu
+if %_erl%==5 start https://github.com/n1s4t/IDM-Activation-Script & goto MainMenu
 if %_erl%==4 start https://www.internetdownloadmanager.com/download.html & goto MainMenu
 if %_erl%==3 goto _reset
 if %_erl%==2 (set frz=1&goto :_activate)
