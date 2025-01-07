@@ -370,7 +370,7 @@ if not defined terminal mode 75, 28
 
 echo:
 echo:
-call :_color2 %_White% "             " %_Green% "Create By Piash"
+call :_color2 %_White% "             " %_Green% "Create By Nisat"
 echo:            ___________________________________________________ 
 echo:
 echo:               Telegram: n1s4t
